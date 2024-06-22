@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "GET-OUT Site Blocker for 18+",
+  "version": "0.5.3",
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "storage",
+    "activeTab",
+    "notifications",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "index.js"
+  },
+  "host_permissions": [
+    "*://*/"
+  ],
+  "icons": {
+    "16": "main/getout2_1.png",
+    "48": "main/getout2_2.png",
+    "128": "main/getout2_3.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "main/getout2_1.png",
+      "48": "main/getout2_2.png",
+      "128": "main/getout2_3.png"
+    }
+  }
+}
