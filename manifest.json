@@ -5,10 +5,7 @@
   "permissions": [
     "tabs",
     "webNavigation",
-    "storage",
-    "activeTab",
-    "notifications",
-    "scripting"
+    "storage"
   ],
   "background": {
     "service_worker": "index.js"
